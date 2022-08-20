@@ -1,0 +1,41 @@
+body{
+  background-color: aquamarine;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  box-sizing: border-box;
+  transform: translate(-50%,-50%);
+  background-color: aliceblue;
+  padding: 20px 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+input{
+  border: none;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    outline-style: none;
+    color: rgb(39, 11, 11);
+    height: 40px;
+    font-size: 16px;
+}
+button{
+  height: 40px;
+    background-color:rgb(210, 206, 206);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+p{
+  color: red;
+}
+label{
+  margin-top: 10px;
+}
+
